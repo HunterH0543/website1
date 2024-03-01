@@ -3,7 +3,16 @@ body {
     background-color: lightblue;
     display: flex;
     justify-content: center;
-    align-items: center:
+    align-items: center;
     margin: 0;
+}
 
+.btn{
+    margin: 50px;
+    height: 70px;
+    width: 90px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 20px;
 }
