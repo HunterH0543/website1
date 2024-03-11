@@ -1,10 +1,10 @@
-toggle = docuemnt.getElementById('toggle')
+toggle = document.getElementById('toggle')
 open = document.getElementById('open')
 modal = document.getElementById('modal')
 close = document.getElementById('close')
 
 
-toggle.addEvenetListner('click', () => {
+toggle.addEventListener('click', () => {
     document.body.classList.toggle('show-nav')
 })
 
