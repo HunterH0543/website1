@@ -1,6 +1,7 @@
 toggle = docuemnt.getElementById('toggle')
 open = document.getElementById('open')
 modal = document.getElementById('modal')
+close = document.getElementById('close')
 
 
 toggle.addEvenetListner('click', () => {
@@ -10,3 +11,8 @@ toggle.addEvenetListner('click', () => {
 open.addEventListener('click', () => {
     modal.classList.add('show-modal')
 })
+
+close.addEventListener('click', () => {
+    modal.classList.remove('show-modal')
+})
+
