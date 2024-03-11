@@ -18,6 +18,6 @@ close.addEventListener('click', () => {
 
 window.addEventListener('click', (e) => {
     if (e.target == modal) {
-        model.classList.remove('show-modal')
+        modal.classList.remove('show-modal')
     }
 })
