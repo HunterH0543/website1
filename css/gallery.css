@@ -61,3 +61,16 @@ font-family: "Playfair Display", serif;
         width: 100vw;
     }
 }
+
+.return{
+    position: fixed;
+    top: 0px;
+    left: 20px;
+    right: 0;
+}
+
+.return a{
+    color: rgba(0,0,0);
+    text-decoration: none;
+    font-size: 18px;
+}

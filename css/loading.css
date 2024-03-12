@@ -27,3 +27,21 @@ body{
     background-size: cover;
     filter: blur(30px);
 }
+
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 18px;
+    background: transparent;
+    justify-content: center;
+    text-align: right;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}

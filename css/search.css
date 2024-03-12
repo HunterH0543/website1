@@ -51,3 +51,20 @@ body{
 .search.active .btn{
     transform: translateX(198px);
 }
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: blue;
+    justify-content: center;
+    text-align: right;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
