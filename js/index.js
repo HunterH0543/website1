@@ -1,8 +1,11 @@
-open = document.querySelectorAll('.link')
+const link = document.getElementById("link");
 
-open.forEach(link => {
-    link.addEventListener('mouseover', () => {
-        removeActiveClasses()
-        link.classList.add('active')
-    })
-})
+link.addEventListener(
+    "mouseover",
+    (event) => {
+      // highlight the mouseover target
+      event.target.style.color = "purple";
+    },
+    false,
+  );
+  Result
