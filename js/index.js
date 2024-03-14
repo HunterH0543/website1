@@ -2,11 +2,15 @@ open = document.querySelectorAll('link')
 
 open.forEach(link => {
     link.addEventListener('click', () => {
-        window.open('https://hunterh0543.github.io/website1/search.html', '_blank');
-        window.open('https://hunterh0543.github.io/website1/navigation.html', '_blank');
-        window.open('https://hunterh0543.github.io/website1/loading.html', '_blank');
-        window.open('https://hunterh0543.github.io/website1/gallery.html', '_blank');
-        window.open('https://hunterh0543.github.io/website1/landingpage.html', '_blank');
-        window.open('https://hunterh0543.github.io/website1/sound.html', '_blank');
+        openInNewTab('http://127.0.0.1:5500/website1/search.html')
+        openInNewTab('http://127.0.0.1:5500/website1/gallery.html')
+        openInNewTab('http://127.0.0.1:5500/website1/sound.html')
+        openInNewTab('http://127.0.0.1:5500/website1/loading.html')
+        openInNewTab('http://127.0.0.1:5500/website1/navigation.html')
+        openInNewTab('http://127.0.0.1:5500/website1/landingpage.html')
     })
 })
+
+function openInNewTab(url) {
+    window.open(url, '_blank').focus();
+}
