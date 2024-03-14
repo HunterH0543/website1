@@ -1,4 +1,4 @@
-open = document.querySelectorAll('.link')
+open = document.querySelectorAll('link')
 
 open.forEach(link => {
     link.addEventListener('click', () => {
